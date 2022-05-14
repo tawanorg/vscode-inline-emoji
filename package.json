@@ -1,6 +1,6 @@
 {
-	"name": "vscode-emoji-all",
-	"displayName": "vscode-emoji-all",
+	"name": "vscode-inline-emoji",
+	"displayName": "vscode-inline-emoji",
 	"description": "",
 	"version": "0.0.1",
 	"engines": {
