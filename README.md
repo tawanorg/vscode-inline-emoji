@@ -1,12 +1,24 @@
-# Inline Emoji
+# vscode-inline-emoji
 
-Easy way to insert inline emoji with VS Code extenstion.
+> [vscode-inline-emoji](https://github.com/tawanorg/vscode-inline-emoji) is a tool that automatically insert emoji while writing.
 
-# Dependencies 
-- https://github.com/omnidan/node-emoji
+## :warning: This plugin is WIP
 
-# Demo
+Alternatively you can use: https://github.com/Devzstudio/Vscode-Emoji-Snippets
 
-type `:` to trigger emoji suggestion
+## Usage
 
-![Screen Shot 2565-05-14 at 12 46 44](https://user-images.githubusercontent.com/10970130/168412606-c4d29553-dbfc-4e5c-9fee-1c344105108b.png)
+- You can start typing emoji name. `coffee`
+- You can find emoji name from this JSON https://raw.githubusercontent.com/omnidan/node-emoji/master/lib/emoji.json or anywhere else really.
+
+## Todo
+
+- Remove a trigger `:` symbol when user entered
+
+## Changelog
+
+See the [Releases section of our GitHub project](https://github.com/tawanorg/vscode-inline-emoji/releases) for changelogs for each release version.
+
+## License
+
+This software is released under the terms of the MIT license.

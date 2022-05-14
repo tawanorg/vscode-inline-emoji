@@ -1,5 +1,6 @@
 import * as vscode from "vscode";
 import { Emoji, EmojiItem } from "./emoji";
+import languages from "./languages";
 
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
@@ -18,15 +19,6 @@ export function activate(context: vscode.ExtensionContext) {
     }
   );
 
-  const languages = [
-    "typescriptreact",
-    "typescript",
-    "javascript",
-    "javascriptreact",
-    "markdown",
-    "plaintext",
-  ];
-
   const emoji = new Emoji();
 
   const completionItems: vscode.ProviderResult<vscode.CompletionItem[]> = [];
@@ -36,7 +28,7 @@ export function activate(context: vscode.ExtensionContext) {
     const emojiCompletion = new vscode.CompletionItem({
       label: key,
       // description: "description",
-      detail: ` ${emoji.get(emojiKey)}`,
+      detail: ` ${emoji.get(emojiKey)} `,
     });
     emojiCompletion.insertText = new vscode.SnippetString(
       `${emoji.get(emojiKey)} $1`
