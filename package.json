@@ -3,7 +3,7 @@
 	"displayName": "vscode-inline-emoji",
 	"description": "",
 	"version": "1.0.0",
-  "author": "Daniel Bugl <daniel.bugl@touchlay.com>",
+  "author": "Tew Tawan <tew@tawan.org>",
   "repository": {
     "type": "git",
     "url": "https://github.com/tawanorg/vscode-inline-emoji.git"
