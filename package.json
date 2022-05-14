@@ -1,7 +1,7 @@
 {
 	"name": "vscode-inline-emoji",
 	"displayName": "vscode-inline-emoji",
-	"description": "Insert emoji while writing",
+	"description": "Insert emoji while writing/coding",
 	"version": "1.0.2",
   "author": "Tew Tawan <tew@tawan.org>",
   "publisher": "tawanorg",
