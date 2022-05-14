@@ -1,13 +1,24 @@
 {
 	"name": "vscode-inline-emoji",
 	"displayName": "vscode-inline-emoji",
-	"description": "",
+	"description": "Insert emoji while writing",
 	"version": "1.0.1",
   "author": "Tew Tawan <tew@tawan.org>",
+  "publisher": "tawanorg",
   "repository": {
     "type": "git",
     "url": "https://github.com/tawanorg/vscode-inline-emoji.git"
   },
+  "homepage": "https://github.com/tawanorg/vscode-inline-emoji/blob/master/README.md",
+  "galleryBanner": {
+    "color": "#DDDDDD",
+    "theme": "light"
+  },
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "icon": "assets/icon.png",
   "keywords": [
     "emoji",
     "insert",
@@ -30,6 +41,7 @@
 	"main": "./out/extension.js",
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
+    "vscode": "vsce package",
 		"compile": "tsc -p ./",
 		"watch": "tsc -watch -p ./",
 		"pretest": "npm run compile && npm run lint",
@@ -52,5 +64,6 @@
 	},
 	"dependencies": {
 		"node-emoji": "^1.11.0"
-	}
+	},
+  "license": "MIT"
 }
