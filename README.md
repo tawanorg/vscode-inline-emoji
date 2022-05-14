@@ -2,7 +2,8 @@
 
 Easy way to insert inline emoji with VS Code extenstion.
 
-Thanks https://github.com/omnidan/node-emoji
+# Dependencies 
+- https://github.com/omnidan/node-emoji
 
 # Demo
 
