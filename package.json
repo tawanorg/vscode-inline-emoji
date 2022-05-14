@@ -2,16 +2,28 @@
 	"name": "vscode-inline-emoji",
 	"displayName": "vscode-inline-emoji",
 	"description": "",
-	"version": "0.0.1",
+	"version": "1.0.0",
+  "author": "Daniel Bugl <daniel.bugl@touchlay.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tawanorg/vscode-inline-emoji.git"
+  },
+  "keywords": [
+    "emoji",
+    "insert",
+    "inline",
+    "vscode",
+    "extension"
+  ],
+  "bugs": {
+    "url": "https://github.com/tawanorg/vscode-inline-emoji/issues"
+  },
 	"engines": {
 		"vscode": "^1.67.0"
 	},
 	"categories": [
 		"Other"
 	],
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
-  },  
 	"activationEvents": [
 		"*"
 	],
