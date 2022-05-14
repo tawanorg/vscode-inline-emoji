@@ -2,7 +2,7 @@
 	"name": "vscode-inline-emoji",
 	"displayName": "vscode-inline-emoji",
 	"description": "",
-	"version": "1.0.0",
+	"version": "1.0.1",
   "author": "Tew Tawan <tew@tawan.org>",
   "repository": {
     "type": "git",
